@@ -34,8 +34,7 @@ class Stack
     # Remove the last item that was pushed onto the
     # stack and return the value to the user
     def pop
-        return print "nil\n" if @head.nil?
-        print "{@head.value}\n"
+        print "{@head.value}"
         @head = @head.next_node 
     end
 
